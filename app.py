@@ -44,7 +44,7 @@ def get_youtube_video(query):
     return None
 
 # Load the Excel shortcuts from the uploaded PDF
-pdf_path = "Excel_shortcuts_cheat_sheet.pdf"
+pdf_path = "Excel Functions_merged.pdf"
 shortcuts = extract_shortcuts_from_pdf(pdf_path)
 
 # Streamlit app
